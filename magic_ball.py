@@ -24,9 +24,7 @@ def magic_ball_answers():
 
 def user_question():
     while True:
-        print('Введите ваш вопрос:')
-        question = input()
-        print('Чтож, ваш вопрос:', question, '- принимается')
+        question = input('Задай мне свой вопрос: ')
         magic_ball_answers()
         print('Вы бы хотели узнать что-то еще? Введите Y/N')
         yes_no = input()
